@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.clr{
+    clear: both;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+.container{
+    width: 1170px;
+    margin: 0 auto;
+}
+
+/*Common Css End*/
+
+/*Navigation Bar CSS*/
+
+.navigation{
+    background: #8ccbc6
+}
+.logo{
+    width: 30%;
+    float: left;
+}
+.logoimg {
+	margin-top: -20px;
+	margin-bottom: -19px;
+	margin-left: -34px;
+}
+.menu{
+    width: 70%;
+    float: left;
+    text-align: right;
+}
+.menu a {
+	color: white;
+	font-family: sans-serif;
+	font-size: 20px;
+	font-weight: bold;
+	text-transform: capitalize;
+	padding: 28px 0 28px 70px;
+}
+
+/*Banner Section CSS*/
+
+.banner{
+    background: url(../images/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.banner_content{
+	padding: 135px 0;
+    width: 643px;
+}
+
+.banner_content h1{
+	color: white;
+	font-size: 57px;
+}
+.banner_content p{
+	margin-top: 15px;
+	color: white;
+}
+.banner_content a {
+	background: green;
+	color: white;
+	font-size: 20px;
+	padding: 15px 30px;
+	margin-top: 30px;
+}
+
+/*Company Logo Section CSS*/
+
+.logo1 {
+	margin-left: -39px;
+}
+.logocompany {
+	padding-left: 207px;
+}
+
+/*Course Section CSS*/
+
+.course_section{
+    background: #e6e6e6;
+}
+.course_heading {
+	padding: 30px 0;
+}
+.course_heading h1 {
+	text-align: ;
+	text-align: center;
+	padding: 23px 0;
+	font-size: 53px;
+}
+.course_card{
+    margin: 0 -15px;
+}
+.course_col{
+    width: 33.33%;
+    float: left;
+    padding: 0 15px;
+    
+}
+.course_content {
+	text-align: center;
+	padding: 30px 20px;
+    background: #d0d0d0;
+}
+.course_content h1 {
+	font-size: 40px;
+}
+.course_content p {
+	margin-top: 20px;
+}
+.course_content a {
+	background: green;
+	font-size: 16px;
+	padding: 10px 25px;
+	color: white;
+	margin-top: 30px;
+}
+.gap {
+	margin: 30px 0;
+}
+.bottom_bar_courses {
+	padding-bottom: 100px;
+}
+
+
+/*Footer Section CSS*/
+.footer{
+    background: #1d1c1c;
+    padding: 100px 0;
+}
+.footer_content {
+	color: white;
+	text-align: center;
+	font-size: 30px;
+}
